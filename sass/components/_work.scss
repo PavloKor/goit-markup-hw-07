@@ -4,6 +4,7 @@
 .work-conteiner {
   @extend %conteiner;
   &__title {
+      @extend %reset;
       text-align: center;
       margin-bottom: 50px;
       font-weight: 700;

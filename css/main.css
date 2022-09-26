@@ -1,4 +1,4 @@
-.work-list__desc, .work-list, .about-list__desc, .about-list, .about__title, .list-contact, .nav-list {
+.team-socials__link, .team-socials, .team-desc__position, .team-desc__name, .team-list, .team-conteiner__title, .work-list__desc, .work-list, .work-conteiner__title, .about-list__desc, .about-list, .about__title, .list-contact, .nav-list {
   margin: 0;
   padding: 0%;
   list-style: none;
@@ -19,7 +19,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.work-conteiner, .about__conteiner, .section-slogan__conteiner, .header-conteiner {
+.team-conteiner, .work-conteiner, .about__conteiner, .section-slogan__conteiner, .header-conteiner {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -233,6 +233,76 @@
   padding: 27px;
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+.team-conteiner__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+.team-list__item {
+  width: 270px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-list__desc {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-desc__name {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+}
+
+.team-desc__position {
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-bottom: 16px;
+}
+
+.team-socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.team-socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-socials__link:hover, .team-socials__link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.team-socials__icon {
+  fill: currentColor;
 }
 
 body {
