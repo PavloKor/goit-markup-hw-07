@@ -1,0 +1,7 @@
+{
+  "liveServer.settings.port": 5501,
+  "editor.renderWhitespace": "boundary",
+  "editor.lineHeight": 23,
+  "editor.linkedEditing": true,
+  "prettier.tabWidth": 2
+}
