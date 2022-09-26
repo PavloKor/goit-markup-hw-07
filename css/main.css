@@ -1,4 +1,4 @@
-.list-contact, .nav-list {
+.about-list, .list-contact, .nav-list {
   margin: 0;
   padding: 0%;
   list-style: none;
@@ -19,7 +19,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.section-slogan__conteiner, .header-conteiner {
+.about__conteiner, .section-slogan__conteiner, .header-conteiner {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -157,6 +157,46 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background-color var(--perehid);
+}
+.section-slogan__btn:focus, .section-slogan__btn:hover {
+  background-color: #188ce8;
+}
+
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.about__title {
+  display: none;
+}
+
+.about-list {
+  display: flex;
+  gap: 30px;
+}
+.about-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.about-list__caption {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-list__desc {
+  font-size: 14px;
+  line-height: 1.7142857143;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 body {
