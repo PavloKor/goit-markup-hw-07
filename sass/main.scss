@@ -1,11 +1,13 @@
 @import "./utils/vars";
 @import "./utils/placeholders";
 @import "./components/header";
+@import "./components/slogan";
 
-/*Reset*/
 
-/* body {
-  font-family: var(--main-font);
+
+
+body {
+  font-family: $main-font;
   font-size: 14px;
   line-height: var(--main-line-h);
   letter-spacing: var(--main-letter-s);
@@ -13,20 +15,3 @@
   background-color: var(--main-bcg-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0%;
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: currentColor;
-} */
-/* End */

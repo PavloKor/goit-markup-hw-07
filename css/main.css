@@ -10,19 +10,29 @@
 }
 
 .page {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: var(--main-line-h);
-  letter-spacing: var(--main-letter-s);
-  color: var(--main-txt-cl);
-  background-color: var(--main-bcg-cl);
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-conteiner {
+.section-slogan__conteiner, .header-conteiner {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section-slogan__btn {
+  font-family: inherit;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .header {
@@ -110,30 +120,51 @@
   fill: #2196f3;
 }
 
-/*Reset*/
-/* body {
-  font-family: var(--main-font);
+.section-slogan {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/Imgbcg1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2f303a;
+  padding: 200px 0;
+  text-align: center;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imgbcg1.jpeg);
+}
+
+.section-slogan__title {
+  margin: 0 auto;
+  width: 696px;
+  margin-bottom: 30px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3636363636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.section-slogan__btn {
+  width: 216px;
+  padding: 10px 32px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: background-color var(--perehid);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: var(--main-line-h);
   letter-spacing: var(--main-letter-s);
   color: var(--main-txt-cl);
   background-color: var(--main-bcg-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0%;
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: currentColor;
-} */
-/* End *//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
