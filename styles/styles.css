@@ -103,7 +103,7 @@ ul {
 .nav {
   margin-left: 93px;
 }
-.list-nav {
+.nav-list {
   display: flex;
   gap: 50px;
 }
