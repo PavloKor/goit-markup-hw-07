@@ -5,6 +5,7 @@
     @extend %conteiner;
   }
   &__title {
+    @extend %reset;
     display: none;
   }
 }
@@ -31,6 +32,7 @@
   }
 }
 .about-list__desc {
+  @extend %reset;
   font-size: 14px;
   line-height: $txt-line-h;
   letter-spacing: $main-letter-s;
