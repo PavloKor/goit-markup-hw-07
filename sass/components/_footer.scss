@@ -108,15 +108,16 @@
   &__btn {
     @extend %btn;
     width: 200px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      &:focus,
-        &:hover {
-          background-color: $btn-act-bcg-cl;
-        }
-  }
-   
+    font-weight: 700;
+    font-size: 16px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    &:focus,
+    &:hover {
+      background-color: $btn-act-bcg-cl;
+    }
+  } 
 }
